@@ -4,16 +4,8 @@ import "./cartridges.css";
 const Caritage = () => {
   return (
     <Container>
-      <Row
-        className=""
-        style={{ display: "flex", width: "100%", border: "1px solid red" }}
-      >
-        <Row
-          lg={8}
-          md={8}
-          style={{ width: "65%", border: "1px solid red" }}
-          className="cartridges1"
-        >
+      <Row className="" style={{ display: "flex", width: "100%" }}>
+        <Row lg={8} md={8} style={{ width: "65%" }} className="cartridges1">
           <Col className="caritage-col">
             <Badge variant="primary" className="badges">
               {" "}
@@ -21,7 +13,7 @@ const Caritage = () => {
             </Badge>
           </Col>
         </Row>
-        <Row lg={4} md={4} style={{ width: "35%", border: "1px solid red" }}>
+        <Row lg={4} md={4} style={{ width: "35%" }}>
           <Col className="prerolls">
             <Badge variant="primary" className="badges">
               {" "}
